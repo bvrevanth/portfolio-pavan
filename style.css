@@ -55,7 +55,7 @@ body {
 }
 
 .header > .hero-right > img {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .header > .hero-left > h3 {
@@ -281,6 +281,7 @@ body {
   margin-top: 100px;
   margin-right: 120px;
   margin-left: 120px;
+  margin-bottom: 100px;
 }
 
 .contact-me > h4 {
@@ -288,13 +289,50 @@ body {
   font-weight: 800;
 }
 
-.contact-info > .contact-left {
+.contact-info > .contact-left > h5 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.contact-info > .contact-left > p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 16px;
+}
+
+.contact-info > .contact-left > p:nth-child(3) {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 40px;
+}
+
+.contact-info > .contact-left > p:nth-child(4) {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 32px;
+}
+
+.contact-info > .contact-left > p > i:nth-child(1) {
+  margin-left: 10px;
+}
+
+.contact-info > .contact-left > p > i {
+  color: #e5e5e5;
+  margin-right: 16px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.contact-info > .contact-left > p > a {
+  color: #e99557;
+  font-weight: 500;
 }
 
 .contact-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  margin-top: 48px;
 }
 
 .contact-info > .contact-right {
@@ -306,6 +344,7 @@ body {
   align-items: flex-start;
   /* justify-content: start; */
   flex-direction: column;
+  border-radius: 4px;
 }
 
 .contact-info > .contact-right > input {
@@ -339,4 +378,10 @@ body {
   margin-top: 24px;
   background-color: #0b0b0b;
   border: 1px solid #1f1f1f;
+}
+
+.end {
+  height: 3px;
+  width: 100%;
+  background-color: #e99557;
 }
