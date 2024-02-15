@@ -11,13 +11,14 @@ body {
   background-color: #0b0b0b;
   color: #e5e5e5;
   /* margin: 0 120px; */
-  /* max-width: 1280px; */
+  max-width: 1280px;
+  margin: auto;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 70px;
   align-items: center;
   margin-left: 120px;
   margin-right: 120px;
@@ -51,11 +52,11 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-left: 120px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header > .hero-right > img {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .header > .hero-left > h3 {
