@@ -810,7 +810,7 @@ body {
   }
 
   .navbar > .mob-menu {
-    display: block;
+    display: none;
     position: absolute;
     right: 0%;
     top: -40px;
